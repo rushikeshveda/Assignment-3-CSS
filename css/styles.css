@@ -6,7 +6,7 @@ body {
     padding: 0;
     color: #ffffff;
     line-height: 1.6;
-    background-image: url('images/backgd.png');
+    background-image: url('../images/backgd.png');
     background-size: cover;
     background-position: center;
     transition: background-color 0.5s; /* Add transition effect to background color */
@@ -19,11 +19,6 @@ h1{
 
 h1, h2, h3 {
     font-weight: 700;
-}
-
-/* Cursor */
-body {
-    cursor: url('images/custom-cursor.png'), auto; /* Use custom cursor */
 }
 
 /* Header */
@@ -203,7 +198,7 @@ footer {
     position: relative;
     display: inline-block;
     margin: 10px;
-    background-image: url(images/ferrero-rocher1.jpg);
+    background-image: url(../images/ferrero-rocher1.jpg);
     background-size: contain;
 }
 .slide2 {
@@ -211,7 +206,7 @@ footer {
     position: relative;
     display: inline-block;
     margin: 10px;
-    background-image: url(images/ferrero-rocher2.jpg);
+    background-image: url(../images/ferrero-rocher2.jpg);
     background-size: contain;
     width: 300px;
     border-radius: 20px;
@@ -221,7 +216,7 @@ footer {
     position: relative;
     display: inline-block;
     margin: 10px;
-    background-image: url(images/ferrero-rocher3.jpg);
+    background-image: url(../images/ferrero-rocher3.jpg);
     background-size: contain;
     width: 300px;
     border-radius: 20px;
